@@ -7,10 +7,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <title>Donald's Website</title>
 </head>
 
-<body class="bg-gray-100 font-roboto">
+<body class="bg-dark font-roboto">
     <!--navigation bar-->
     <nav class="bg-black shadow-lg">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -47,6 +48,57 @@
             mobileMenu.classList.toggle("hidden");
         });
     </script>
+    <!--About section-->
+    <div id="About" class="container about p-5">
+        <div class="row">
+            <div class="col-6">
+              <img src="image copy.png" class="img-fluid" style="width: 600px;height: auto;"/> 
+            </div>
+            <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                <h3 class="text-warning">About Donald</h3>
+                <h1 class="m-heading">A little about me</h1>
+                <p>
+                    <b class="text-success">Donald</b> likes playing football. My favourite football team is Arsenal. My favourite football player is <b class="text-danger">Jamal Musiala</b> My hobbies are playing <b class="text-warning">football,swimming and gaming</b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Project section-->
+    <div id="project" class="container mt-5 pt-5">
+        <h1 class="text-danger mb-3 pb-2">My projects</h1>
+        <div class="row">
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="image copy 2.png" class="card-img-top" style="height: 13rem;"/>
+                    <div class="card-body">
+                        <h5 class="card-title">background-effect in CSS</h5>
+                        <p class="card-text">Created background-effect,background-color,background-image and animation</p>
+                    <a href="#" class="btn btn-light">see project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="image copy 2.png" class="card-img-top" style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">background-effect in CSS</h5>
+                        <p class="card-text">Created background-effect,background-color,background-image and animation</p>
+                        <a href="#" class="btn btn-light">see project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="image copy 2.png" class="card-img-top" style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">background-effect in CSS</h5>
+                        <p class="card-text">Created background-effect,background-color,background-image and animation</p>
+                        <a href="#" class="btn btn-light">see project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
